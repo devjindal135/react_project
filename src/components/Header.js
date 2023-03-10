@@ -11,7 +11,7 @@ function Header(props) {
   useEffect(() => {
     setTheme(
       location.pathname === "/shopping-cart" ||
-        location.pathname === "/shopping-cart/"
+        location.pathname === "/shopping-cart/" || location.pathname === '/'
         ? "light"
         : "dark"
     );
